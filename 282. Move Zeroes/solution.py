@@ -17,7 +17,7 @@ class Solution:
         return arr
 
 ## 1.先判断有几个零，每个零可以由两两和非零交换，向后传递，最终到达末尾。 但是python提交超时了。。。     
-class Solution:
+class Solution_0:
     def moveZeroes(self, arr):
         numofzeros = 0 
         for i in range(arr.count(0)):
